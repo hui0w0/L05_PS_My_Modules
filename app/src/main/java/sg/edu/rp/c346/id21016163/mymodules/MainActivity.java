@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ModuleDetailActivity.class);
-                intent.putExtra("code2", "C203");
-                intent.putExtra("name2", "HTML");
-                intent.putExtra("year2","2022");
-                intent.putExtra("sem2","1");
-                intent.putExtra("credit2","4");
-                intent.putExtra("venue2","W65H");
+                intent.putExtra("code", "C203");
+                intent.putExtra("name", "HTML");
+                intent.putExtra("year","2022");
+                intent.putExtra("sem","1");
+                intent.putExtra("credit","4");
+                intent.putExtra("venue","W65H");
                 startActivity(intent);
             }
         });
@@ -58,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ModuleDetailActivity.class);
-                intent.putExtra("code3", "C206");
-                intent.putExtra("name3", "Software Development Process");
-                intent.putExtra("year3","2022");
-                intent.putExtra("sem3","1");
-                intent.putExtra("credit3","4");
-                intent.putExtra("venue3","E66K");
+                intent.putExtra("code", "C206");
+                intent.putExtra("name", "Software Development Process");
+                intent.putExtra("year","2022");
+                intent.putExtra("sem","1");
+                intent.putExtra("credit","4");
+                intent.putExtra("venue","E66K");
                 startActivity(intent);
             }
         });
@@ -72,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ModuleDetailActivity.class);
-                intent.putExtra("code4", "C218");
-                intent.putExtra("name4", "UI/UX Design");
-                intent.putExtra("year4","2022");
-                intent.putExtra("sem4","1");
-                intent.putExtra("credit4","4");
-                intent.putExtra("venue4","E66B");
+                intent.putExtra("code", "C218");
+                intent.putExtra("name", "UI/UX Design");
+                intent.putExtra("year","2022");
+                intent.putExtra("sem","1");
+                intent.putExtra("credit","4");
+                intent.putExtra("venue","E66B");
                 startActivity(intent);
             }
         });
@@ -86,12 +86,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ModuleDetailActivity.class);
-                intent.putExtra("code5", "C345");
-                intent.putExtra("name5", "IT Security and Management");
-                intent.putExtra("year5","2022");
-                intent.putExtra("sem5","1");
-                intent.putExtra("credit5","4");
-                intent.putExtra("venue5","E66A");
+                intent.putExtra("code", "C345");
+                intent.putExtra("name", "IT Security and Management");
+                intent.putExtra("year","2022");
+                intent.putExtra("sem","1");
+                intent.putExtra("credit","4");
+                intent.putExtra("venue","E66A");
                 startActivity(intent);
             }
         });
